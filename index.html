@@ -21,16 +21,27 @@
 			padding-right: 5vh;
 		}
 		.set{
+			width: fit-content;
 			display: inline-block;
 			margin-top: 0vh
 		}
+		.title{
+			font-size: 5vh;
+			color: #fff;
+			display:block;
+			text-align: center;
+		}
 		@media only screen and (max-device-width: 800px) {
-			.set:nth-child(even){
-				display: block;
-				margin-top: 5vh;
+			.set:nth-child(odd){
+				/* display:inline-block;	 */
+				/* margin-top: 5vh; */
 			}
-			.set:nth-last-child{
-				margin-bottom: -5vh;
+			.title{
+				width:100%;
+				font-size: 2.5vh;
+				color: #fff;
+				display:block;
+				text-align: center;
 			}
 		}
 		.logo{
@@ -45,12 +56,7 @@
 			vertical-align: middle;
 			display: inline-block;
 		}
-		.title{
-			font-size: 5vh;
-			color: #fff;
-			display:block;
-			text-align: center;
-		}
+		
 	</style>
 </head>
 <body>
