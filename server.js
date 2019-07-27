@@ -14,6 +14,6 @@ app.use(express.static(__dirname + '/static'));
 //Store all JS and CSS in Scripts folder.
 
 app.use('/', router);
-app.listen(3000);
+app.listen(8080);
 
-console.log('Running at Port 3000');
+console.log('Running at Port 8080');
