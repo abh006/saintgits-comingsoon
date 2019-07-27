@@ -24,9 +24,13 @@
 			display: inline-block;
 			margin-top: 0vh
 		}
-		@media screen and (max-width: 600px) {
-			.set{
+		@media only screen and (max-device-width: 800px) {
+			.set:nth-child(even){
 				display: block;
+				margin-top: 5vh;
+			}
+			.set:nth-last-child{
+				margin-bottom: -5vh;
 			}
 		}
 		.logo{
@@ -45,6 +49,7 @@
 			font-size: 5vh;
 			color: #fff;
 			display:block;
+			text-align: center;
 		}
 	</style>
 </head>
