@@ -332,7 +332,7 @@ body {
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(to top, #e28f80, #c2850b);
+  background: linear-gradient(to top, #e28f80, #29200f);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
